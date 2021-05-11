@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
 // import '../app.css'
 
-export default function Display({colors, bgImage}) {
+const Display = ({ colors, bgImage }) => {
   return (
     <div style={{
       border: '1px solid salmon',
@@ -13,5 +14,12 @@ export default function Display({colors, bgImage}) {
     }}>
       hi
     </div>
-  )
-}
+  );
+};
+
+Display.propTypes = {
+  colors: PropTypes.array.isRequired,
+  bgImage: PropTypes.string.isRequired,
+};
+
+export default Display;
