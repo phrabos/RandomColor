@@ -11,7 +11,7 @@ export default class RandomColor extends Component {
 
   componentDidMount(){
     setInterval(() => {
-      const {colors, bgColor, bgImage} = this.state
+      const {colors, bgColor} = this.state
       const newBg = this.pickColor(colors)
       if(newBg === bgColor){
         this.setState({
