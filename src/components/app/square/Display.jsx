@@ -9,6 +9,7 @@ export default function Display({colors, bgImage}) {
       height: '300px',
       backgroundColor: colors,
       backgroundImage: bgImage,
+      
     }}>
       hi
     </div>

@@ -3,7 +3,7 @@ import Display from '../components/app/square/Display'
 
 export default class RandomColor extends Component {
   state = {
-    colors: ['grey', 'salmon', 'silver', 'papayawhip', 'pink'],
+    colors: ['salmon', 'silver', 'papayawhip', 'pink'],
     bgColor:'salmon',
     bgImage: 'none',
 
